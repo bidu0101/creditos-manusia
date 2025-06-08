@@ -25,7 +25,7 @@ const PlansSection = () => {
       originalPrice: "R$ 19,85",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Starter de 500 créditos por R$ 29,90. Podemos conversar?",
+        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Starter de 1.000 créditos por R$ 14,90. Podemos conversar?",
       benefits: [
         "Entrega imediata",
         "Suporte via WhatsApp",
@@ -41,7 +41,7 @@ const PlansSection = () => {
       originalPrice: "R$ 33,20",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Popular de 1.000 créditos por R$ 49,90. Podemos conversar?",
+        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Popular de 2.000 créditos por R$ 24,90. Podemos conversar?",
       benefits: [
         "Entrega imediata",
         "Suporte via WhatsApp",
@@ -58,7 +58,7 @@ const PlansSection = () => {
       originalPrice: "R$ 74,55",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Premium de 2.000+ créditos por R$ 89,90. Podemos conversar?",
+        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Premium de 5.000 créditos por R$ 55,90. Podemos conversar?",
       benefits: [
         "Entrega imediata",
         "Suporte via WhatsApp",
