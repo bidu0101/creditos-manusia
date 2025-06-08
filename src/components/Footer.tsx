@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const Footer = () => {
@@ -11,29 +10,29 @@ const Footer = () => {
             <div className="space-y-2">
               <div>
                 <strong>WhatsApp:</strong>{" "}
-                <a 
-                  href="https://wa.me/5511999999999" 
+                <a
+                  href="https://wa.me/5511999999999"
                   className="text-primary hover:underline"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
-                  (11) 99999-9999
+                  (11) 91450-6603
                 </a>
               </div>
-              <div>
-              </div>
+              <div></div>
             </div>
           </CardContent>
         </Card>
 
         <div className="space-y-4 text-sm text-muted-foreground">
           <p className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-yellow-800">
-            <strong>Aviso importante:</strong> Não somos afiliados oficiais da IA Manus. 
-            Oferecemos um serviço independente de venda de créditos com garantia 
-            de entrega.
-            A entrega dos créditos é conforme a disponibilidade da equipe, para maiores dúvidas entre em contato no WhatsApp.
+            <strong>Aviso importante:</strong> Não somos afiliados oficiais da
+            IA Manus. Oferecemos um serviço independente de venda de créditos
+            com garantia de entrega. A entrega dos créditos é conforme a
+            disponibilidade da equipe, para maiores dúvidas entre em contato no
+            WhatsApp.
           </p>
-          
+
           <div className="flex flex-wrap justify-center gap-6 pt-4">
             <a href="#" className="hover:text-primary transition-colors">
               Política de Privacidade
@@ -45,10 +44,8 @@ const Footer = () => {
               Garantias
             </a>
           </div>
-          
-          <p className="pt-4">
-            © 2024 - Todos os direitos reservados
-          </p>
+
+          <p className="pt-4">© 2024 - Todos os direitos reservados</p>
         </div>
       </div>
     </footer>

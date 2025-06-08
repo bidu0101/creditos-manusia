@@ -63,7 +63,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center">
                 <img
-                  src="public/ia-manus-logo.png"
+                  src="/ia-manus-logo.png"
                   alt="IA Manus"
                   className="w-8 h-8 rounded-lg mr-3 object-cover"
                 />
