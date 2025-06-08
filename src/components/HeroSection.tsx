@@ -38,7 +38,7 @@ const HeroSection = () => {
           Receba direto na sua conta, sem perder seu projeto atual.
           <br />
           <span className="text-primary font-semibold">
-            Entrega imediata e suporte completo.
+            Entrega manual e suporte completo!
           </span>
         </p>
 
@@ -53,7 +53,7 @@ const HeroSection = () => {
 
           <div className="flex items-center text-sm text-muted-foreground">
             <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-            <strong>A Melhor IA que trablha para você!</strong>
+            <strong>A Melhor IA que trabalha para você!</strong>
           </div>
         </div>
 
