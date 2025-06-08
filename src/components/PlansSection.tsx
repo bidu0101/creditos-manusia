@@ -8,14 +8,17 @@ const PlansSection = () => {
   const [loadingPlan, setLoadingPlan] = useState<string | null>(null);
 
   const handlePlanClick = (planName: string, whatsappLink: string) => {
-    setLoadingPlan(planName);
+  setLoadingPlan(planName); // Inicia o estado de carregamento
 
-    // Simula um pequeno delay para mostrar a animação
-    setTimeout(() => {
-      window.open(whatsappLink, "_blank", "noopener,noreferrer");
-      setLoadingPlan(null);
-    }, 1500);
-  };
+  // *** MUDANÇA AQUI: Abrir o WhatsApp IMEDIATAMENTE após o clique ***
+  window.open(whatsappLink, "_blank", "noopener,noreferrer");
+
+  // O setTimeout agora só serve para DESLIGAR o estado de carregamento
+  // e não interfere mais no redirecionamento do WhatsApp.
+  setTimeout(() => {
+    setLoadingPlan(null); // Desliga o estado de carregamento após a animação/delay
+  }, 1500); // Mantém o delay para o efeito visual de "Carregando..."
+};
 
   const plans = [
     {
