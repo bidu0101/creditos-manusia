@@ -53,7 +53,7 @@ const HeroSection = () => {
 
           <div className="flex items-center text-sm text-muted-foreground">
             <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-            A melhor IA que trabalha para você!
+            <strong>A Melhor IA que trablha para você!</strong>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const HeroSection = () => {
               <p className="text-sm text-foreground font-medium leading-relaxed">
                 💡 Olá! Sou a IA Manus e posso criar textos incríveis, gerar
                 imagens fantásticas e automatizar suas tarefas. Com mais
-                créditos, você unlockeia todo meu potencial!
+                créditos, você desbloqueia todo o meu potencial!
               </p>
             </div>
           </div>

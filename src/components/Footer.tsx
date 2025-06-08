@@ -11,7 +11,7 @@ const Footer = () => {
               <div>
                 <strong>WhatsApp:</strong>{" "}
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/5511914506603"
                   className="text-primary hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
