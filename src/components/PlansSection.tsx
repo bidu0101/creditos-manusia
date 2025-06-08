@@ -25,7 +25,7 @@ const PlansSection = () => {
       originalPrice: "R$ 19,85",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Starter de 1.000 créditos por R$ 14,90. Podemos conversar?",
+        "https://wa.me/5511933318539?text=Olá! Tenho interesse no plano Starter de 1.000 créditos por R$ 14,90. Podemos conversar?",
       benefits: [
         "Suporte via WhatsApp",
         "Garantia de entrega",
@@ -40,7 +40,7 @@ const PlansSection = () => {
       originalPrice: "R$ 33,20",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Popular de 2.000 créditos por R$ 24,90. Podemos conversar?",
+        "https://wa.me/5511933318539?text=Olá! Tenho interesse no plano Popular de 2.000 créditos por R$ 24,90. Podemos conversar?",
       benefits: [
         "Suporte via WhatsApp",
         "Garantia de entrega",
@@ -56,7 +56,7 @@ const PlansSection = () => {
       originalPrice: "R$ 74,55",
       savings: "25%",
       whatsappLink:
-        "https://wa.me/5511914506603?text=Olá! Tenho interesse no plano Premium de 5.000 créditos por R$ 55,90. Podemos conversar?",
+        "https://wa.me/5511933318539?text=Olá! Tenho interesse no plano Premium de 5.000 créditos por R$ 55,90. Podemos conversar?",
       benefits: [
         "Suporte via WhatsApp",
         "Garantia de entrega",
@@ -97,7 +97,7 @@ const PlansSection = () => {
               {plan.popular && (
                 <div className="absolute top-0 left-0 right-0">
                   <div className="manus-gradient text-white text-center py-2 text-sm font-semibold">
-                    🔥 MAIS POPULAR
+                    🔥 POPULAR
                   </div>
                 </div>
               )}

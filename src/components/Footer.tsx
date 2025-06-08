@@ -11,12 +11,12 @@ const Footer = () => {
               <div>
                 <strong>WhatsApp:</strong>{" "}
                 <a
-                  href="https://wa.me/5511914506603"
+                  href="https://wa.me/5511933318539"
                   className="text-primary hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  (11) 91450-6603
+                  (11) 93331-8539
                 </a>
               </div>
               <div></div>
